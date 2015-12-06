@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 要全使用MaterialDesign样式，需要使用如下定义的主题 -->
+    <style name="Base.AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!--状态栏颜色，会被statusBarColor效果覆盖-->
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!--状态栏颜色，继承自colorPrimaryDark-->
+        <item name="android:statusBarColor">@color/statusBarColor</item>
+        <!--actionBar颜色-->
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <!--背景颜色-->
+        <item name="android:windowBackground">@color/windowBackground</item>
+        <!--底部栏导航栏颜色-->
+        <item name="android:navigationBarColor">@color/black</item>
+
+        <!--控件默认颜色 ，效果会被colorControlActivated取代-->
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <!-- actionBar的标题文字颜色-->
+        <item name="android:textColorPrimary">@color/white</item>
+
+        <item name="android:colorForeground">@color/fg_blue</item>
+        <item name="android:colorBackground">@color/bg_blue</item>
+
+        <!--控件默认时颜色-->
+        <item name="android:colorControlNormal">@color/control_normal_blue</item>
+        <!-- 控件按压时颜色，会影响水波纹效果，继承自colorAccent-->
+        <item name="android:colorControlHighlight">@color/control_highlight_blue</item>
+        <!--控件选中时颜色-->
+        <item name="android:colorControlActivated">@color/colorAccent</item>
+        <!-- Button的默认背景-->
+        <item name="android:colorButtonNormal">@color/button_normal_blue</item>
+        <!--Button，textView的文字颜色-->
+        <item name="android:textColor">@color/black</item>
+        <!--RadioButton checkbox等控件的文字-->
+        <item name="android:textColorPrimaryDisableOnly">@color/red</item>
+    </style>
+
+    <style name="AppTheme" parent="Base.AppTheme"></style>
+
+</resources>
